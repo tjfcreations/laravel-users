@@ -19,5 +19,9 @@ class UsersServiceProvider extends PackageServiceProvider {
             CreateUser::class,
             DeleteUser::class
         ]);
+
+        $this->publishes([
+            __DIR__.'/Filament/Resources' => app_path('Filament/Resources'),
+        ], 'filament-resources');
     }
 }
