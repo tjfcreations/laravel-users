@@ -1,0 +1,39 @@
+{
+    "name": "tjall/laravel-users",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tjall\\Users\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tjalling Feenstra",
+            "email": "hello@tjalling.net"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^12.17",
+        "illuminate/console": "^12.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tjall\\Users\\UsersServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../laravel-*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "spatie/laravel-package-tools": "^1.92"
+    }
+}
