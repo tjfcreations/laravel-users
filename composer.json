@@ -14,8 +14,11 @@
         }
     ],
     "require-dev": {
-        "illuminate/support": "^12.17",
-        "illuminate/console": "^12.17"
+        "illuminate/support": "^12.0",
+        "illuminate/console": "^12.17",
+        "filament/forms": "^3.3",
+        "filament/filament": "^3.3",
+        "illuminate/database": "^12.0"
     },
     "extra": {
         "laravel": {
