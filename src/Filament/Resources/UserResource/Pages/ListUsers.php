@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Resources\UserResource\Pages;
+namespace Tjall\Users\Filament\Resources\UserResource\Pages;
 
-use App\Filament\Resources\UserResource;
+use Tjall\Users\Filament\Resources\UserResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
